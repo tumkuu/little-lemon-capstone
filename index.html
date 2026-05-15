@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Little Lemon — Mediterranean restaurant in Chicago. Fresh ingredients, family recipes, and warm hospitality.">
+  <meta name="author" content="Little Lemon">
+  <title>Little Lemon | Mediterranean Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo logo--header" href="index.html" aria-label="Little Lemon home">
+        <svg class="logo__mark" viewBox="0 0 64 64" role="img" aria-hidden="true">
+          <circle cx="32" cy="34" r="22" fill="#F4CE14"/>
+          <ellipse cx="32" cy="30" rx="18" ry="16" fill="#EE9972" opacity=".35"/>
+          <path d="M32 12c-6 8-10 18-10 28a10 10 0 0 0 20 0c0-10-4-20-10-28z" fill="#495E57"/>
+        </svg>
+        <span class="logo__wordmark">Little Lemon</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="site-nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#menu-highlights">Menu</a></li>
+          <li><a href="#reservations">Reservations</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__media" role="img" aria-label="Fresh Mediterranean dishes on a wooden table"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Chicago · Family owned since 1998</p>
+        <h1 id="hero-heading">Taste the sunshine of the Mediterranean</h1>
+        <p class="hero__lede">
+          Seasonal plates, bold citrus, and olive oil–forward cooking — served in a cozy room that feels like Sunday dinner at nonna’s.
+        </p>
+        <a class="btn btn--primary" href="#reservations">Book a table</a>
+      </div>
+    </section>
+
+    <section class="highlights" id="menu-highlights" aria-labelledby="highlights-heading">
+      <header class="section-header">
+        <h2 id="highlights-heading">This week’s favorites</h2>
+        <p class="section-header__sub">Three dishes our regulars order again and again.</p>
+      </header>
+
+      <div class="highlights__grid">
+        <article class="card">
+          <figure class="card__figure">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800&q=80" alt="Colorful Greek salad with feta and olives" width="800" height="600" loading="lazy">
+          </figure>
+          <div class="card__body">
+            <h3 class="card__title">Village Greek salad</h3>
+            <p class="card__text">
+              Crisp cucumbers, ripe tomatoes, kalamata olives, and barrel-aged feta with our lemon-oregano dressing.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80" alt="Wood-fired pizza with fresh basil" width="800" height="600" loading="lazy">
+          </figure>
+          <div class="card__body">
+            <h3 class="card__title">Wood-fired lemon pizza</h3>
+            <p class="card__text">
+              Smoky crust, buffalo mozzarella, preserved lemon, and fresh basil — finished with a drizzle of extra-virgin olive oil.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80" alt="Grilled fish with herbs and lemon" width="800" height="600" loading="lazy">
+          </figure>
+          <div class="card__body">
+            <h3 class="card__title">Grilled branzino</h3>
+            <p class="card__text">
+              Whole fish with charred lemon, capers, and herbs from our rooftop garden — light, bright, and meant for sharing.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-band" id="reservations" aria-labelledby="cta-heading">
+      <div class="cta-band__inner">
+        <h2 id="cta-heading" class="cta-band__title">Reservations</h2>
+        <p class="cta-band__text">
+          Weekends fill quickly. Reserve online or call us — we’ll save you a spot by the window.
+        </p>
+        <a class="btn btn--ghost" href="mailto:bookings@littlelemon.example">Email bookings@littlelemon.example</a>
+      </div>
+    </section>
+
+    <section class="about-snippet" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading" class="visually-hidden">About Little Lemon</h2>
+      <p>
+        Little Lemon is a small Chicago restaurant celebrating Mediterranean comfort food. We source locally when we can, cook with patience, and welcome every guest like family.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col footer-col--brand">
+        <a class="logo logo--footer" href="index.html" aria-label="Little Lemon home">
+          <svg class="logo__mark logo__mark--sm" viewBox="0 0 64 64" role="img" aria-hidden="true">
+            <circle cx="32" cy="34" r="22" fill="#F4CE14"/>
+            <ellipse cx="32" cy="30" rx="18" ry="16" fill="#EE9972" opacity=".35"/>
+            <path d="M32 12c-6 8-10 18-10 28a10 10 0 0 0 20 0c0-10-4-20-10-28z" fill="#495E57"/>
+          </svg>
+          <span class="logo__wordmark logo__wordmark--sm">Little Lemon</span>
+        </a>
+      </div>
+      <div class="footer-col footer-col--legal">
+        <p class="footer-copy">
+          © <span id="year"></span> Little Lemon. All rights reserved. Fictional portfolio project for educational use.
+        </p>
+        <p class="footer-copy footer-copy--muted">
+          123 Lemon Lane, Chicago, IL · Mon–Sun 11am–10pm
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
